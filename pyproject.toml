@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "keras-lstm"
+version = "0.1.0"
+description = ""
+authors = ["Hicham Guessab <hichamgsb.pro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tensorflow = "^2.18.0"
+keras = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
