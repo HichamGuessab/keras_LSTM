@@ -108,7 +108,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 model.summary()
 
 # Entraînement du modèle
-model.fit(train_input_padded, train_output_categorical, epochs=10, batch_size=1)
+model.fit(train_input_padded, train_output_categorical, epochs=50, batch_size=1)
 
 # Evaluation du modèle sur les données de train
 # On s'attend à ce que le modèle ait une meilleure performance sur les données de train que sur les données de test
